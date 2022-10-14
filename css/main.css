@@ -77,12 +77,15 @@ header h2 span {
     padding-left: 50px;
 }
 
-#about p {
+#about-grid {
+    border-top: 5px solid #9b9b9b;  
+    border-bottom: 5px solid #9b9b9b;
+}
+
+#about-grid p {
     font-size: 21px;
     color: #7f7f7f;
     line-height: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .flex-container {
@@ -101,6 +104,13 @@ header h2 span {
     width: 30%;
     justify-content: center;
     align-items: center;
+}
+
+#more-info {
+    border-left: 5px dotted #cfcbcb;
+    border-right: 5px dotted #cfcbcb;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 /***** WORK SECTION *****/
 
