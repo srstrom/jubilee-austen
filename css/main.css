@@ -85,6 +85,23 @@ header h2 span {
     padding-right: 50px;
 }
 
+.flex-container {
+    display: flex;
+    font-weight: bold;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-items {
+    display: flex;
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
 /***** WORK SECTION *****/
 
 #work {
