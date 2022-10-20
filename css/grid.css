@@ -1,0 +1,140 @@
+/***** BASE STYLES *****/
+html {
+    background-color: lavenderblush;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+font-family: 'Source Sans Pro', sans-serif;
+padding: 0 2em;
+font-size: 1.25em;
+height: 100%;
+color: lavenderblush;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+header,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/***** HEADER *****/
+
+header {
+    height: 300px;
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+}
+
+nav {
+    float: right;
+    padding: 80px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 20px 20px 0;
+    margin-bottom: 45px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+header p {
+    width: 1000px;
+    font-family: 'Lora', serif;
+    font-size: 32px;
+    color: #9b9b9b;
+}
+
+
+
+/***** ABOUT SECTION *****/
+
+#about-grid {
+    border-top: 5px solid #9b9b9b;  
+    border-bottom: 5px solid #9b9b9b;
+    margin-top: 85px;
+}
+
+#about-grid p {
+    font-size: 21px;
+    font-family: 'Lora', serif;
+    color: #7f7f7f;
+    line-height: 40px;
+}
+
+.flex-container {
+    display: flex;
+    font-weight: bold;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-items {
+    display: flex;
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+#more-info {
+    border-left: 5px dotted #cfcbcb;
+    border-right: 5px dotted #cfcbcb;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/***** WORK SECTION *****/
+
+/***** CONTACT SECTION *****/
+#contact {
+    padding-top: 13px;
+}
+#contact .github {
+    padding-right: 25px;
+}
+
